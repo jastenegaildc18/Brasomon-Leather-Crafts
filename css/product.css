@@ -1,0 +1,140 @@
+
+
+@font-face {
+    font-family:"Moon";
+    src: url(../fonts/Moon\ Light.otf)
+}
+
+@font-face {
+    font-family:"Poppins";
+    src: url(../fonts/Poppins-Light.otf)
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/logo1.jpg);
+    font-family: 'Poppins';
+}
+#logo{
+    width: 50px;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+#navbar-brand{
+    width: 50px;
+    border-radius: 50%;
+}
+.top-image-first{
+    padding-left: 3rem;
+}
+.top-image-second{
+    padding-right: 3rem;
+}
+.product-image{
+    background: url(../img/home-image.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+}
+
+.landing-text h1{
+    font-size: 400%;
+    font-weight: 700;
+    font-family: 'Moon';
+}
+.landing-text h5{
+    font-size: 500%;
+    font-weight: 700;
+    font-family: 'Moon';
+}
+
+.leather-title{
+    padding: 5rem;
+}
+.wallet-pro{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.keychain-pro{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.nametag-pro{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.cordclip-pro{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.bookmark-pro{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.end{
+    padding: 2rem;
+}
+
+.container h2{
+    text-align: center;
+}
+.col-md-3{
+    width: 5rem;
+}
+footer{
+    background-color: rgba(34, 20, 16, 0.904);
+    color: #d5d5d5;
+    padding-top: .8rem;
+
+}
+.footer-container{
+    padding-bottom: 2rem;
+}
+#footer-logo{
+    width: 180px;
+    padding-top: 5px;
+}
+hr.light{
+    border-top: 1px solid whitesmoke;
+}
+
+.social{
+    font-size: 4.5em;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #a71f6e;
+}
+.fa-twitter{
+    color: #00aced;
+}
+.fa-google-plus-square{
+    color: #dd4b39;
+}
+.fa-facebook-messenger{
+    color: #2362eb;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-google-plus-square:hover,
+.fa-facebook-messenger:hover{
+    color: #d5d5d5;
+}

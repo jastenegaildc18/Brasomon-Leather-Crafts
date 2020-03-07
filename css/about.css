@@ -1,0 +1,119 @@
+@font-face {
+    font-family:"Moon";
+    src: url(../fonts/Moon\ Light.otf)
+}
+@font-face {
+    font-family:"Poppins";
+    src: url(../fonts/Poppins-Light.otf)
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/logo1.jpg);
+    font-family: 'Poppins';
+}
+.about-image{
+    background: url(../img/cover.jpeg) no-repeat center center fixed;
+    display: table;
+    height: 90vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: azure;
+}
+
+.landing-text h1{
+    font-size: 400%;
+    font-weight: 500;
+    font-family: 'Moon';
+}
+.landing-text h5{
+    font-size: 200%;
+    font-weight: 100;
+    font-family: 'Pristina';
+}
+#logo{
+    width: 50px;
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+#navbar-brand{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.quality-container{
+    padding-left: 3.5rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+}
+
+
+.tagline{
+    padding: 2rem;
+    background-image: url(../img/cover.jpeg);
+}
+
+
+.our-story{
+    padding: 3rem;
+}
+.image{
+    padding-top: 3rem;
+    text-align: center;
+}
+footer{
+    background-color: rgba(34, 20, 16, 0.904);
+    color: #d5d5d5;
+    padding-top: .8rem;
+    font-family:"Poppins";
+
+}
+.footer-container{
+    padding-bottom: 2rem;
+    font-family:"Poppins";
+}
+#footer-logo{
+    width: 180px;
+    padding-top: 5px;
+}
+hr.light{
+    border-top: 1px solid whitesmoke;
+}
+
+.social{
+    font-size: 4.5em;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #a71f6e;
+}
+.fa-twitter{
+    color: #00aced;
+}
+.fa-google-plus-square{
+    color: #dd4b39;
+}
+.fa-facebook-messenger{
+    color: #2362eb;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-google-plus-square:hover,
+.fa-facebook-messenger:hover{
+    color: #d5d5d5;
+}
